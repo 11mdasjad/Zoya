@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoya Makeup Studio - Enhancing Your Natural Beauty</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 3D Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="makeup-brush">
+                <i class="fas fa-paint-brush"></i>
+            </div>
+            <h2>Zoya Makeup Studio</h2>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/916001343840?text=Hi%20Zoya%20Makeup%20Studio,%20I%20would%20like%20to%20book%20an%20appointment" class="whatsapp-float" target="_blank" aria-label="Contact on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>Zoya <span>Makeup Studio</span></h1>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Zoya Makeup Studio</h1>
+            <p class="hero-tagline fade-in">Enhancing Your Natural Beauty</p>
+            <a href="#booking" class="cta-button shimmer fade-in">Book Appointment</a>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Us</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="about.png" alt="Makeup Artist">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Welcome to Zoya Makeup Studio</h3>
+                    <p>At Zoya Makeup Studio, we believe that every woman deserves to feel beautiful and confident. With years of professional experience in the beauty industry, we specialize in creating stunning looks that enhance your natural features.</p>
+                    <p>Our expertise spans from bridal makeup to party glam, using only premium quality products and the latest techniques. We take pride in our attention to detail and commitment to customer satisfaction.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-award"></i>
+                            <span>Certified Professionals</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-star"></i>
+                            <span>Premium Products</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Customer Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Discover our range of professional makeup and styling services</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=500&h=400&fit=crop" alt="Bridal Makeup">
+                        <div class="service-overlay">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Bridal Makeup</h3>
+                        <p>Make your special day unforgettable with our exquisite bridal makeup services. We create timeless looks that photograph beautifully.</p>
+                        <div class="service-price">Starting from ₹17,000</div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=500&h=400&fit=crop" alt="Party Makeup">
+                        <div class="service-overlay">
+                            <i class="fas fa-glass-cheers"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Party Makeup</h3>
+                        <p>Stand out at any event with our glamorous party makeup. Perfect for cocktails, receptions, and special occasions.</p>
+                        <div class="service-price">Starting from ₹4,000</div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=500&h=400&fit=crop" alt="HD Makeup">
+                        <div class="service-overlay">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>HD Makeup</h3>
+                        <p>Camera-ready perfection with our HD makeup services. Flawless finish that looks stunning in photos and videos.</p>
+                        <div class="service-price">Starting from ₹6,000</div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=500&h=400&fit=crop" alt="Airbrush Makeup">
+                        <div class="service-overlay">
+                            <i class="fas fa-spray-can"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Airbrush Makeup</h3>
+                        <p>Experience the latest in makeup technology with our airbrush services. Long-lasting, lightweight, and flawless coverage.</p>
+                        <div class="service-price">Starting from ₹6,000</div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=500&h=400&fit=crop" alt="Hair Styling">
+                        <div class="service-overlay">
+                            <i class="fas fa-cut"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Hair Styling</h3>
+                        <p>Complete your look with our professional hair styling services. From elegant updos to flowing curls.</p>
+                        <div class="service-price">Starting from ₹2,500</div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=500&h=400&fit=crop" alt="Pre-Wedding Makeup">
+                        <div class="service-overlay">
+                            <i class="fas fa-rings-wedding"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Pre-Wedding Makeup</h3>
+                        <p>Look picture-perfect for your pre-wedding shoots and ceremonies with our specialized makeup services.</p>
+                        <div class="service-price">Starting from ₹8,000</div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=500&h=400&fit=crop" alt="Engagement Makeup">
+                        <div class="service-overlay">
+                            <i class="fas fa-ring"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Engagement Makeup</h3>
+                        <p>Shine bright on your engagement day with our stunning makeup that captures your joy and elegance perfectly.</p>
+                        <div class="service-price">Starting from ₹10,000</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pricing Packages</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Choose the perfect package for your special occasion</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <i class="fas fa-crown"></i>
+                        <h3>Bridal Package</h3>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="currency">₹</span>
+                        <span class="amount">17,000</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Bridal Makeup</li>
+                        <li><i class="fas fa-check"></i> Hair Styling</li>
+                        <li><i class="fas fa-check"></i> Draping Service</li>
+                        <li><i class="fas fa-check"></i> Pre-Wedding Trial</li>
+                        <li><i class="fas fa-check"></i> Touch-up Kit</li>
+                        <li><i class="fas fa-check"></i> Premium Products</li>
+                    </ul>
+                    <a href="#booking" class="pricing-button">Book Now</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <i class="fas fa-star"></i>
+                        <h3>Party Glam</h3>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="currency">₹</span>
+                        <span class="amount">4,000</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Party Makeup</li>
+                        <li><i class="fas fa-check"></i> Hair Styling</li>
+                        <li><i class="fas fa-check"></i> False Lashes</li>
+                        <li><i class="fas fa-check"></i> Draping Service</li>
+                        <li><i class="fas fa-check"></i> Premium Products</li>
+                    </ul>
+                    <a href="#booking" class="pricing-button">Book Now</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <i class="fas fa-camera"></i>
+                        <h3>HD Makeup</h3>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="currency">₹</span>
+                        <span class="amount">6,000</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> HD Makeup</li>
+                        <li><i class="fas fa-check"></i> Hair Styling</li>
+                        <li><i class="fas fa-check"></i> False Lashes</li>
+                        <li><i class="fas fa-check"></i> Airbrush Foundation</li>
+                        <li><i class="fas fa-check"></i> Premium Products</li>
+                    </ul>
+                    <a href="#booking" class="pricing-button">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Gallery</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Explore our stunning makeup transformations</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="g1.JPG" alt="Bridal Look 1">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="g2.JPG" alt="Bridal Look 2">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="g3.JPG" alt="Party Look 1">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="g4.JPG" alt="Party Look 2">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="g5.JPG" alt="HD Makeup">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="g6.JPG" alt="Hair Styling">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="g7.JPG" alt="Makeup Work">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="g8.JPG" alt="Engagement Look">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="g9.JPG" alt="Pre-Wedding Look">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Real experiences from our beautiful brides and clients</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Zoya made me feel like a princess on my wedding day! The makeup was flawless and lasted throughout the entire ceremony. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/100?img=1" alt="Priya Sharma">
+                        <div class="author-info">
+                            <h4>Priya Sharma</h4>
+                            <span>Bride</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Amazing service! The party makeup was absolutely stunning and I received so many compliments. Zoya truly understands what looks good on camera."</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/100?img=5" alt="Ananya Verma">
+                        <div class="author-info">
+                            <h4>Ananya Verma</h4>
+                            <span>Party Client</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Professional, talented, and so friendly! The HD makeup for my pre-wedding shoot was perfect. Every photo came out beautifully!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/100?img=9" alt="Riya Kapoor">
+                        <div class="author-info">
+                            <h4>Riya Kapoor</h4>
+                            <span>Pre-Wedding Client</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Book Your Appointment</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Reserve your slot and let us make you look stunning</p>
+            </div>
+            <div class="booking-content">
+                <div class="booking-info">
+                    <h3>Why Book With Us?</h3>
+                    <div class="info-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Professional Service</h4>
+                            <p>Certified makeup artists with years of experience</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Premium Products</h4>
+                            <p>We use only high-quality, branded makeup products</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Flexible Timing</h4>
+                            <p>Available for home visits and studio appointments</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Customer Satisfaction</h4>
+                            <p>100% satisfaction guaranteed or money back</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking-form-wrapper">
+                    <form class="booking-form" id="bookingForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Preferred Date</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Select Service</label>
+                            <select id="service" name="service" required>
+                                <option value="">Choose a service</option>
+                                <option value="bridal">Bridal Makeup</option>
+                                <option value="party">Party Makeup</option>
+                                <option value="hd">HD Makeup</option>
+                                <option value="airbrush">Airbrush Makeup</option>
+                                <option value="hair">Hair Styling</option>
+                                <option value="prewedding">Pre-Wedding Makeup</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Message (Optional)</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="submit-button shimmer">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">We'd love to hear from you</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Address</h4>
+                            <p>Guwahati, Assam<br>India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 6001343840</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>info@zoyamakeup.com<br>bookings@zoyamakeup.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Instagram</h4>
+                            <p><a href="https://www.instagram.com/glow_withzoya_makeup/" target="_blank" style="color: inherit; text-decoration: none;">@glow_withzoya_makeup</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228174.39805531178!2d91.56906324999999!3d26.1445169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5f1b1b1b1b1b%3A0x1b1b1b1b1b1b1b1b!2sGuwahati%2C%20Assam!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Zoya Makeup Studio</h3>
+                    <p>Enhancing your natural beauty with professional makeup services and personalized care.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/glow_withzoya_makeup/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@zoyaparveen2199" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://wa.me/916001343840" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Bridal Makeup</a></li>
+                        <li><a href="#services">Party Makeup</a></li>
+                        <li><a href="#services">HD Makeup</a></li>
+                        <li><a href="#services">Hair Styling</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +91 6001343840</li>
+                        <li><i class="fas fa-envelope"></i> info@zoyamakeup.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Guwahati, Assam</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Zoya Makeup Studio. All Rights Reserved. | Designed with <i class="fas fa-heart"></i> for Beauty</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
